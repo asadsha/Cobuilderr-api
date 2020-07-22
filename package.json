@@ -1,0 +1,31 @@
+{
+  "name": "cobuilderapi",
+  "version": "1.0.0",
+  "description": "cobuilder-api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "cobuilder"
+  ],
+  "author": "Asad Shah",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.607.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.7",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
